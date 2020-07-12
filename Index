@@ -1,61 +1,67 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <title>Styles Conference</title>
-    <link rel="stylesheet" href="main.css" />
+    <title>Project Time!</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <header>
-      <h1><a href="index.html">Styles Conference</a></h1>
-      <h3>August 24&ndash;26 &mdash; Chicago, IL</h3>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="speaker.html">Speakers</a>
-        <a href="schedule.html">Schedule</a>
-        <a href="venue.html">Venue</a>
-        <a href="register.html">Register</a>
-      </nav>
-    </header>
-    <section>
-      <a href="register.html">Register Now</a>
-      <h2>Dedicated to the Craft of Building Websites</h2>
+    <nav>
+      <a href="/" id="brand">MySite</a>
+    </nav>
+
+    <div id="nav-container">
+      <div id="nav-title">Navigation</div>
+      <ul class="nav">
+        <li>
+          <a href="#">Link #1</a>
+        </li>
+        <li>
+          <a href="#">Link #2</a>
+        </li>
+        <li>
+          <a href="#">Link #3</a>
+        </li>
+        <li>
+          <a href="#">Link #4</a>
+        </li>
+        <li>
+          <a href="#">Link #5</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="body">
       <p>
-        Every year the brightest web-designers and front-end developers descend
-        on Chicago to discuss the latest tecnologies. Join us this August!
+        Welcome to your first major CSS project. This is designed to be difficult <em>and</em> to give you hands on experience with a real world project.
       </p>
-      <section>
-        <section>
-          <a href="speakers.html">
-            <h5>Speakers</h5>
-            <h3>Word-Class Speakers</h3>
-          </a>
-          <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
-      </section>
-      <section>
-        <a href="schedule.html">
-          <h5>Schedule</h5>
-          <h3>Three Inspiring Days</h3>
-        </a>
-        <p>Enjoy three inspiring and action-packed days of talks, gatherings, and all-around good times.</p>
-    </section>
-    <section>
-      <a href="venue.html">
-        <h5>Venue</h5>
-        <h3>The Chicago Theatre</h3>
-      </a>
-      <p>Within the heart of downtown Chicago, the Chigaco Theatre will provide a beautiful conference venue.</p>
-  </section>
-    </section>
-    <footer>
-      <small>&copy, Styles Conference</small>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="speaker.html">Speakers</a>
-        <a href="schedule.html">Schedule</a>
-        <a href="venue.html">Venue</a>
-        <a href="register.html">Register</a>
-      </nav>
+      <p>
+        There will be many times in your life as a developer that you will get stuck, you don't know where to start and you never start because it's hard to find the right place to start.
+      </p>
+      <p>
+        But let me tell you this:
+        <blockquote>
+          The <em>best</em> time to start is now. The <em>best</em> place to start is here. Just get started!
+        </blockquote>
+      </p>
+    </div>
+
+
+    <footer class="row">
+      <div class="col1">
+        Left Column
+      </div>
+      <div class="col2">
+        Middle Column
+      </div>
+      <div class="col3">
+        Right Column
+      </div>
+      <div class="full-col">
+        This should take up the width of 3 columns
+      </div>
     </footer>
   </body>
 </html>
